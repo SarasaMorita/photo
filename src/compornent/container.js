@@ -5,7 +5,8 @@ import Footer from './footer';
 import  Photobox from './photobox';
 import Message from './message';
 import Sidebar from './sidebar';
-
+import { Routes, Route } from 'react-router-dom';
+import Page2 from './pages/page2';
 
 
 function Container  (){
@@ -17,7 +18,14 @@ function Container  (){
          
          <Photobox></Photobox>  
        <Message></Message>
-       <Footer></Footer>   
+       <Footer></Footer>  
+      
+       <Routes>
+        
+          <Route exact path="/" element={<Container />}  />
+          <Route path="/page2/*" element={<Page2/>} />
+          
+        </Routes> 
 
     </div>
 </>

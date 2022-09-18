@@ -8,12 +8,12 @@ function Prfphoto()  {
     return (
         
 <div css={prfphoto}>
-     <div css={item}>
+   
      <img src={pic4} alt="pictuere1"  
           width='100%'
           height='auto'
          /> 
-    </div>     
+      
     
     
     

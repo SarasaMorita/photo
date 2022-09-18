@@ -12,7 +12,7 @@ function Title (){
    );
 }
 
-const textbox= css({
+const title= css({
    
     display: 'flex',
 	flexWrap: 'wrap',
