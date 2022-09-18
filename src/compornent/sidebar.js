@@ -1,5 +1,6 @@
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
+import { Link } from 'react-router-dom'
 
 import './sidebar.css';
 
@@ -7,18 +8,13 @@ import './sidebar.css';
 export default props => {
     return (
       <Menu {...props}>
-       <a className="menu-item" href="/">
+       <Link to="/" className="menu-item" >
         Home
-      </a>
-      <a className="menu-item" href="/salads">
-        Salads
-      </a>
-      <a className="menu-item" href="/pizzas">
-        Pizzas
-      </a>
-      <a className="menu-item" href="/desserts">
-        Desserts
-      </a>
+      </Link>
+      <Link to="/about" className="menu-item" >
+        About
+      </Link>
+      
     </Menu>
     );
   };

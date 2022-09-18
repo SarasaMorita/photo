@@ -2,15 +2,19 @@
 import {css }  from '@emotion/react'
 
 
-function Message (){
+function About (){
     return (
     <div css={textbox}>
+     
     <div css={p}>
-      生きていれば生きているほど、私にとっての当たり前は覆されていく。  
+      1994年東京生まれ。
     </div>
     <div css={p}>
-    でもほんの少しだけでいいから、私は私の世界を信じていたいな。
+    現在の仕事をきっかけに写真を始め、いつも肩身離さずカメラを持ち歩くように。
 
+    </div>
+    <div css={p}>
+     街をぶらぶらしながら好きなものを撮ってます。
     </div>
 
 
@@ -30,22 +34,22 @@ const textbox= css({
 })
 
 const p = css({
-    // marginTop: '1em',
+   
     textAlign: 'left',
      color: '#696969',
     position:'relative',
     left:'0px',
     lineHeight:'20px',
     width:'100%',
-    // wordWrap:' break-word',
+   
     margin:'0.5em auto',
-    // whiteSpace:'nowrap',
+   
     display: 'flex',
-    // paddingright:'10px',
+   
     boxSizing: 'border-box',
 
-
-
 })
-export default Message ;
+
+
+export default About ;
 
