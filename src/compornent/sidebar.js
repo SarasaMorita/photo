@@ -8,7 +8,7 @@ import './sidebar.css';
 export default props => {
     return (
       <Menu {...props}>
-       <Link to="/" className="menu-item" >
+       <Link to="*" className="menu-item" >
         Home
       </Link>
       <Link to="/page2" className="menu-item" >

@@ -13,20 +13,23 @@ function Container  (){
     return (<>
    
     <div css ={container}>
+     
     <Sidebar  />
          <Header></Header>
          
          <Photobox></Photobox>  
        <Message></Message>
-       <Footer></Footer>  
       
+       <Footer></Footer>  
+    
        <Routes>
         
-          <Route exact path="/" element={<Container />}  />
+          <Route  path="*" element={<Container />}  />
           <Route path="/page2/*" element={<Page2/>} />
           
         </Routes> 
-
+       
+       
     </div>
 </>
         );

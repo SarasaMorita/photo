@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import {css }  from '@emotion/react'
-import Sidebar from './sidebar';
+
 
 function Header()  {
     
@@ -11,7 +11,7 @@ function Header()  {
             わくぐみのへや
         </div>
       
-      {/* <Sidebar/> */}
+      
     </div>
     );
 }
