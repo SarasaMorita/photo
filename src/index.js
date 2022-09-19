@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import "normalize.css";
 import Container from './compornent/container';
-import { BrowserRouter as Router } from 'react-router-dom';
+
 
 
 
@@ -13,13 +13,11 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 
 const element =(
-    <>
-     <Router> 
-        <div>
+    
+  
     <Container/>
-        </div>
-     </Router> 
-     </>
+        
+     
     
 
 )

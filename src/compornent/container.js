@@ -5,7 +5,7 @@ import Footer from './footer';
 import  Photobox from './photobox';
 import Message from './message';
 import Sidebar from './sidebar';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route ,BrowserRouter as Router} from 'react-router-dom';
 import Page2 from './pages/page2';
 
 
@@ -13,7 +13,7 @@ function Container  (){
     return (<>
    
     <div css ={container}>
-     
+    {/* <Router> */}
     <Sidebar  />
          <Header></Header>
          
@@ -24,11 +24,12 @@ function Container  (){
     
         <Routes> 
         
-          <Route  path="*" element={<Container />}  />
-          <Route path="/page2/*" element={<Page2/>} />
+          <Route  path={'/'} element={<Container />}  />
+          <Route path={'/page2/'}  element={<Page2/>} />
           
         </Routes> 
-       
+        {/* </Router> 
+        */}
        
     </div>
 </>
