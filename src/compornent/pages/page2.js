@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import {css }  from '@emotion/react';
-import Header from '../haeder';
+import Header from '../header';
 import Footer from '../footer';
 import Title from './title';
 import Prfphoto from './prfphoto';

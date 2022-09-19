@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import "normalize.css";
-import Container from './compornent/container';
+import Top from './top';
 
 
 
+// const rootElement = document.getElementById('root');
+// const root = createRoot(rootElement);
 
+// root.render(
+//   <Top/>>
+// );
 
   
 
@@ -15,7 +20,7 @@ import Container from './compornent/container';
 const element =(
     
   
-    <Container/>
+    <Top/>
         
      
     
