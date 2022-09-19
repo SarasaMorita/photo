@@ -5,16 +5,6 @@ import Top from './top';
 
 
 
-// const rootElement = document.getElementById('root');
-// const root = createRoot(rootElement);
-
-// root.render(
-//   <Top/>>
-// );
-
-  
-
-
 
 
 const element =(
