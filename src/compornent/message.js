@@ -30,18 +30,18 @@ const textbox= css({
 })
 
 const p = css({
-    // marginTop: '1em',
+  
     textAlign: 'left',
      color: '#696969',
     position:'relative',
     left:'0px',
     lineHeight:'20px',
     width:'100%',
-    // wordWrap:' break-word',
+    
     margin:'0.5em auto',
-    // whiteSpace:'nowrap',
+    
     display: 'flex',
-    // paddingright:'10px',
+    
     boxSizing: 'border-box',
 
 

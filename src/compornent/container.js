@@ -22,7 +22,7 @@ function Container  (){
       
        <Footer></Footer>  
     
-       <Routes>
+        <Routes> 
         
           <Route  path="*" element={<Container />}  />
           <Route path="/page2/*" element={<Page2/>} />

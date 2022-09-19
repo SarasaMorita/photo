@@ -53,23 +53,19 @@ function Photobox()  {
 }
 
 const photobox= css({
-    // paddingTop: '57px',
+  
     display: 'flex',
 	flexWrap: 'wrap',
     justifyContent:'left',
     alignItems:'center',
-    // marginBottom: '20px',
-	// display:' -webkit-flex',
-	// display: 'flex',
-	// webkitJustifyContent: 'space-between',
-	// justifyContent: 'space-between',
+   
 })
 
 const item = css({
     boxSizing: 'border-box',
     margin: '0',
     padding: '10px',
-    // width: 'calc(calc(33.3333333% - 100px / 3))'
+  
     width: '33.33333333%' 
 })
 
