@@ -18,9 +18,10 @@ const title= css({
 	flexWrap: 'wrap',
     justifyContent:'left',
     alignItems:'center',
-    marginLeft:'20px',
+    marginLeft:'10px',
     flexFlow: 'column',
     fontSize: "calc(8px + 2vmin)",
+    padding:'2vh'
 })
 
 export default Title

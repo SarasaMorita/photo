@@ -18,17 +18,17 @@ function Header()  {
 
     const containerStyle = css({
         textAlign:'center',
-        padding:'20px'
+        paddingTop:'10px'
 
 
     })
 
     const header =css({
          width:'100%',
-        padding:'15px 0',
+        padding:'17px 0',
         margin:'0 auto',
         backgroundColor:'#282c34',
-        fontSize: "calc(10px + 2vmin)",
+        fontSize: "calc(20px + 2vmin)",
         color: "white",
         height:'50px'
      
