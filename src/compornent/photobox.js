@@ -53,6 +53,11 @@ function Photobox()  {
 }
 
 const photobox= css({
+    // marginBlockStart: '1em',
+    // marginBlockEnd: '1em',
+    // marginInlineStart: '0px',
+    // marginInlinEnd: '0px',
+    // paddingInlineStart: '40px',
   
     display: 'flex',
 	flexWrap: 'wrap',
@@ -62,11 +67,15 @@ const photobox= css({
 })
 
 const item = css({
+    
+    
+    
     boxSizing: 'border-box',
     margin: '0',
     padding: '10px',
-  
     width: '33.33333333%' 
+  
+    
 })
 
 export default Photobox ;

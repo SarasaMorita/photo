@@ -2,10 +2,9 @@
 import {css }  from '@emotion/react'
 import Header from './header';
 import Footer from './footer';
-import  Photobox from './photobox';
 import Message from './message';
 import Sidebar from './sidebar';
-
+import Resphoto from './resphoto';
 
 
 function Container  (){
@@ -13,13 +12,13 @@ function Container  (){
    
     <div css ={container}>
    
-    <Sidebar  />
-         <Header></Header>
+    <Sidebar/>
+    <Header/>
          
-         <Photobox></Photobox>  
-       <Message></Message>
+    <Resphoto/> 
+     <Message/>
       
-       <Footer></Footer>  
+       <Footer/>  
     
        
     </div>
