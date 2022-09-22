@@ -2,7 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes,} from 'react-router-dom';
 import FadeInCon from './compornent/fadeincon';
-import Page2 from './compornent/pages/page2';
+import Page2Fade from './compornent/page2Fade';
 
 function Top()  {
 
@@ -10,7 +10,7 @@ function Top()  {
   return (<Router>
     <Routes>
       <Route path="/" element={<FadeInCon />} />
-      <Route path="/about" element={<Page2 />} />
+      <Route path="/about" element={<Page2Fade/>} />
     </Routes>
   </Router>
 );
