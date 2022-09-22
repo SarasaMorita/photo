@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes,} from 'react-router-dom';
+import { HashRouter as Router, Route, Routes,} from 'react-router-dom';
 import FadeInCon from './compornent/fadeincon';
 import Page2Fade from './compornent/page2Fade';
 
