@@ -1,4 +1,4 @@
-import Page2 from "./pages/page2";
+import Page2 from "./page2";
 import { useSpring, animated,  } from 'react-spring';
 
 const Page2Fade = () => {

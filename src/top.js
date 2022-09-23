@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { HashRouter as Router, Route, Routes,} from 'react-router-dom';
-import FadeInCon from './compornent/fadeincon';
-import Page2Fade from './compornent/page2Fade';
+import Loading from './Loading/Loading';
+import Page2Now from './compornent/pages/Page2Now';
 import NotFound from './compornent/notfound';
 
 function Top()  {
@@ -10,8 +10,8 @@ function Top()  {
 
   return (<Router>
     <Routes>
-      <Route path="/" element={<FadeInCon />} />
-      <Route path="/about" element={<Page2Fade/>} />
+      <Route path="/" element={<Loading />} />
+      <Route path="/about" element={<Page2Now/>} />
       <Route path="/*" element={<NotFound/>} />
     </Routes>
   </Router>
