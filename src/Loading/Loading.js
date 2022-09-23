@@ -5,17 +5,17 @@ import Bar from "./Bar";
 
 
 function Loading(){
-  const [isloading , setIsLoading] =useState(true);
+  const [isloading , setIsLoading] =useState(false);
   useEffect(()=>{
     
     setTimeout(()=>{
-      setIsLoading(false)
+      setIsLoading(true)
     }, 2500);
   })
 
   return(
   <div align="center">
-{isloading==true?
+{isloading==false?
        <Bar />:<FadeInCon/>
 }
 
