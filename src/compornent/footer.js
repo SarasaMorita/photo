@@ -19,7 +19,7 @@ function Footer (){
   const containerStyle= css({
     
     
-    TextAlign : 'revert',
+    TextAlign : 'center',
     padding:'0 10px'
     
    
