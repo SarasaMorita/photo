@@ -14,6 +14,9 @@ export default props => {
       <Link to="/about" className="menu-item" >
         About
       </Link>
+      <Link to="/machi" className="menu-item" >
+        machi
+      </Link>
       
     </Menu>
     );
