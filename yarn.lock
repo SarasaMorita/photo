@@ -2070,14 +2070,14 @@
     "utility-types" "^3.10.0"
     "zustand" "^3.5.13"
 
-"@react-three/fiber@>=6.0", "@react-three/fiber@>=8.0":
-  "integrity" "sha512-H37RZ74n7R3/G5moGLNw464TPRDlMFIcfjkfslyXAdyYEs+oF0wmFrv29HUCKJub+WzN+/Rb8XeQq9lwdGDwwA=="
-  "resolved" "https://registry.npmjs.org/@react-three/fiber/-/fiber-8.8.2.tgz"
-  "version" "8.8.2"
+"@react-three/fiber@^8.8.5", "@react-three/fiber@>=6.0", "@react-three/fiber@>=8.0":
+  "integrity" "sha512-YhORbB9EDit6n6pnF/U7mbxdfJwoQMzSZmk83R/R+ZtsXkQIsCLdsJqbXM3vlSevH+Mh1OV3nNupGjpWDg/fBg=="
+  "resolved" "https://registry.npmjs.org/@react-three/fiber/-/fiber-8.8.5.tgz"
+  "version" "8.8.5"
   dependencies:
     "@babel/runtime" "^7.17.8"
     "@types/react-reconciler" "^0.26.7"
-    "its-fine" "^1.0.1"
+    "its-fine" "^1.0.3"
     "react-reconciler" "^0.27.0"
     "react-use-measure" "^2.1.1"
     "scheduler" "^0.21.0"
@@ -6974,10 +6974,10 @@
     "html-escaper" "^2.0.0"
     "istanbul-lib-report" "^3.0.0"
 
-"its-fine@^1.0.1":
-  "integrity" "sha512-E7ihBaOViboN99S9x1UkYVSrHyCguSls9ndOmLsq74wFZ6mUr+7PUSjykywVC5Ip065USSGdrjnys23nZb7xcQ=="
-  "resolved" "https://registry.npmjs.org/its-fine/-/its-fine-1.0.1.tgz"
-  "version" "1.0.1"
+"its-fine@^1.0.3":
+  "integrity" "sha512-KhFPq1mu9uVm9zK1tOqSlxImQROHdTxFJzUrOraqpjnvUExzUv0WzPjOrES8SrE+T9pbxmzIQ4M51KFGf/8k+A=="
+  "resolved" "https://registry.npmjs.org/its-fine/-/its-fine-1.0.3.tgz"
+  "version" "1.0.3"
   dependencies:
     "@types/react-reconciler" "^0.28.0"
 

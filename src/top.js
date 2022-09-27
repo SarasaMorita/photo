@@ -4,7 +4,7 @@ import { HashRouter as Router, Route, Routes,} from 'react-router-dom';
 import Loading from './Loading/Loading';
 import Page2Now from './compornent/pages/Page2Now';
 import NotFound from './compornent/notfound';
-import Photoanime from './compornent/portforio/photoanime';
+import Photoanime from './photoanime';
 
 function Top()  {
 
