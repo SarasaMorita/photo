@@ -14,11 +14,11 @@ function Images() {
     <>
     <group>
       
-        <Image url="./1.jpg" scale={[1,height,1]} position={[0, 0, 1]} />
-        <Image url="./2.jpg" scale={[1,6,6]} position={[1.6, 0, 3]} />
-        <Image url="./3.jpg" scale={[1,3.5,1]} position={[2 ,-height, 2]} />
-        <Image url="./4.jpg" scale={[1.4, 2, 1]} position={[-1.3,-height,3.2]} />
-        <Image url="./5.jpg" scale={[1, 1, 1]} position={[-1,0,4]} />
+        <Image url="./1.jpg" scale={[1,7,1]} position={[0, 0, 1]} />
+        <Image url="./2.jpg" scale={[1,3,1]} position={[1, 0, 3]} />
+        <Image url="./3.jpg" scale={[0.5,4,1]} position={[1,-height, 2]} />
+        <Image url="./4.jpg" scale={[1, 2, 1]} position={[-0.5,-height,3.2]} />
+        <Image url="./5.jpg" scale={[0.8, 0.8, 1]} position={[-0.5,0,3.4]} />
        
     </group>
     </>
@@ -77,7 +77,7 @@ function Photoanime() {
 
   const font =css({
     fontFamily: 'Noto Sans JP',
-    fontSize: '4em',
+    fontSize: '3em',
     fontWeight: '400',
     letterSpacing: '0.1em',
     lineHeight: '0.5em',
@@ -85,7 +85,7 @@ function Photoanime() {
      padding: '0',
      position:'absolute',
      top:'30vh',
-     left:'1.5em',
+     left:'0.5em',
      flexFlow: 'column',
      display: 'flex',
      whiteSpace: 'nowrap',
