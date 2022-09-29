@@ -32,14 +32,14 @@ function Photoanime() {
       <div css={size}>
       <Sidebar/>
       <Header/>
-        {/* <div css={body}> */}
+      
       <Canvas>
         <ScrollControls pages={2} damping={3}>
           <Scroll>
            
-            {/* <Header/> */} 
+          
         <Images/>
-        {/* <Footer/> */}
+      
         </Scroll>
 
         <Scroll html>
@@ -51,8 +51,8 @@ function Photoanime() {
         </Scroll>
         </ScrollControls>
     
-      </Canvas>
-      {/* </div> */}
+      // </Canvas>
+    
       <Footer/>
         </div>
       </>
