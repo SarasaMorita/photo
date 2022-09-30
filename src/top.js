@@ -13,7 +13,7 @@ function Top()  {
     <Routes>
       <Route path="/" element={<Loading />} />
       <Route path="/about" element={<Page2Now/>} />
-      {/* <Route path="/machi" element={<Page3Loading/>} /> */}
+      <Route path="/machi" element={<Page3Loading/>} />
       <Route path="/*" element={<NotFound/>} />
     </Routes>
   </Router>
