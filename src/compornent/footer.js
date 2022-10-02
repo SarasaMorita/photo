@@ -8,7 +8,7 @@ function Footer (){
     return (
     <div css={footer}>
         <div css ={containerStyle}>
-      Copyright © 2022 sarasa All Rights Reserved.
+      Copyright © 2022 Sarasa All Rights Reserved.
         </div>
      </div>
     

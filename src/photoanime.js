@@ -60,18 +60,15 @@ function Photoanime() {
   }
 
   const size =css({
-    // display:`flex`,
-    // boxSizing:'border-box',
+    
     backgroundColor:'aliceblue',
-    // alignItems:'center',
     width:'100vw',
-    // margin:'0 auto',
     height:'100vh',
     margin:'0',
     padding:'0',
-    display: 'flex', /* フレックスボックスに有効に */
-        flexFlow: 'column',/* 要素を縦に並べる */
-        minHeight: '100vh'
+    display: 'flex', 
+    flexFlow: 'column',
+     minHeight: '100vh'
   
   })
 
