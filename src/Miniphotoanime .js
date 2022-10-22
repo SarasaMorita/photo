@@ -32,14 +32,14 @@ function Photoanime() {
       <div css={size}>
       <Sidebar/>
       <Header/>
-        {/* <div css={body}> */}
+       
       <Canvas>
         <ScrollControls pages={2} damping={3}>
           <Scroll>
            
-            {/* <Header/> */} 
+          
         <Images/>
-        {/* <Footer/> */}
+       
         </Scroll>
 
         <Scroll html>
@@ -52,7 +52,7 @@ function Photoanime() {
         </ScrollControls>
     
       </Canvas>
-      {/* </div> */}
+     
       <Footer/>
         </div>
       </>
@@ -60,17 +60,16 @@ function Photoanime() {
   }
 
   const size =css({
-    // display:`flex`,
-    // boxSizing:'border-box',
+   
     backgroundColor:'aliceblue',
-    // alignItems:'center',
+    
     width:'100vw',
-    // margin:'0 auto',
+    
     height:'100vh',
     margin:'0',
     padding:'0',
-    display: 'flex', /* フレックスボックスに有効に */
-        flexFlow: 'column',/* 要素を縦に並べる */
+    display: 'flex', 
+        flexFlow: 'column',
         minHeight: '100vh'
   
   })

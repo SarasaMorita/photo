@@ -12,10 +12,7 @@ function Prfphoto()  {
      <img src={pic4} alt="pictuere1"  
           width='100%'
           height='auto'
-         /> 
-      
-    
-    
+         />    
     
 </div>
    );

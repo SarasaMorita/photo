@@ -18,9 +18,7 @@ function Page2  (){
       <Title/>
       <Prfphoto/>
       <About/>
-       <Footer/>  
-       
-       
+       <Footer/>    
 
     </div>
 </>
@@ -28,16 +26,10 @@ function Page2  (){
     }
 
     const container =css({
-        display: 'flex', /* フレックスボックスに有効に */
-        flexFlow: 'column',/* 要素を縦に並べる */
+        display: 'flex', 
+        flexFlow: 'column',
         minHeight: '100vh',
-     
         
-        
-       
-      
-
-       
     })
     
     export default Page2

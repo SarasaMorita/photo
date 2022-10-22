@@ -27,9 +27,7 @@ function Footer (){
 
   const footer = css({
     backgroundColor: "#282c34",
-    // width:'100%',
     padding:'15px 0',
-    // margin:' 0 auto',
     fontSize: "calc(1px + 2vmin)",
     color: "white",
     marginTop:'auto',

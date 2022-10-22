@@ -12,7 +12,7 @@ function LoadingText() {
       ],
       from: { opacity: 0, color: '#FFFFFF' },
     })
-    // ...
+    
     return (
     <div css={center}>
     <animated.div style={styles}>Now Loading....</animated.div>

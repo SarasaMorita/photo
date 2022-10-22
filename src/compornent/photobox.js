@@ -53,11 +53,7 @@ function Photobox()  {
 }
 
 const photobox= css({
-    // marginBlockStart: '1em',
-    // marginBlockEnd: '1em',
-    // marginInlineStart: '0px',
-    // marginInlinEnd: '0px',
-    // paddingInlineStart: '40px',
+   
   
     display: 'flex',
 	flexWrap: 'wrap',
