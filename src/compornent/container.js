@@ -27,8 +27,8 @@ function Container  (){
     }
 
     const container =css({
-        display: 'flex', /* フレックスボックスに有効に */
-        flexFlow: 'column',/* 要素を縦に並べる */
+        display: 'flex', 
+        flexFlow: 'column',
         minHeight: '100vh',
      
         
