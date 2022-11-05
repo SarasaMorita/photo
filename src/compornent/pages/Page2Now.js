@@ -21,10 +21,5 @@ function Page2Now(){
   
     );
   }
-  
-        
-  
-    
-  
     
     export default Page2Now;
