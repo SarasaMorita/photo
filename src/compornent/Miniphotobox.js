@@ -45,31 +45,23 @@ function Miniphotobox()  {
     <img src={pic6} alt="pictuere3" 
           width='100%'
           height='auto'/>
-    </div>  
-
-    
+    </div>     
 </div>
    );
 }
 
 const photobox= css({
-    
     display: 'flex',
 	flexWrap: 'wrap',
     justifyContent:'left',
-    alignItems:'center',
-   
+    alignItems:'center',   
 })
 
 const item = css({
-    
-    
-    
     boxSizing: 'border-box',
     margin: '0',
     padding: '10px',
-    width: '50%' 
-  
+    width: '50%'   
 })
 
 export default Miniphotobox ;

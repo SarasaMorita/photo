@@ -14,9 +14,6 @@ function Bar() {
   cssOverride={{
     marginright: '40vh',
     marginTop:'40vh',
-  
-
-
   }}
 />
 <LoadingText/>

@@ -10,7 +10,7 @@ function LoadingText() {
         { opacity: 1, color: '#252828' },
         { opacity: 0, color: '#000000' },
       ],
-      from: { opacity: 0, color: '#FFFFFF' },
+      from: { opacity: 0, color: '#FFFFFF'},
     })
     
     return (

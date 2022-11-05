@@ -13,30 +13,19 @@ function Container  (){
     <div css ={container}>
    
     <Sidebar/>
-    <Header/>
-         
+    <Header/>   
     <Resphoto/> 
-     <Message/>
-      
-       <Footer/>  
-    
-       
-    </div>
-</>
+    <Message/>
+    <Footer/>  
+
+    </div></>
         );
     }
 
     const container =css({
         display: 'flex', 
         flexFlow: 'column',
-        minHeight: '100vh',
-     
-        
-        
-       
-      
-
-       
+        minHeight: '100vh',  
     })
     
     export default Container

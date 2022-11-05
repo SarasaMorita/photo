@@ -1,27 +1,19 @@
 import Page2 from "./page2";
-import { useSpring, animated,  } from 'react-spring';
+import { useSpring, animated} from 'react-spring';
 
 const Page2Fade = () => {
    
       const styles = useSpring({
       
         to: [
-            { opacity: 1},
-            
+            { opacity: 1}, 
           ],
+         
           from: { opacity: 0},
-        
           config:
           {   mass: 1, tension: 280, friction: 300 }
-                
-    
-        
         })
         
-    
-    
-    
-    
       return (
         <animated.div style={styles}>
          <Page2/>

@@ -13,12 +13,12 @@ function Page2  (){
    
     <div css ={container}>
 
-    <Sidebar  />
-     <Header/>  
+      <Sidebar/>
+      <Header/>  
       <Title/>
       <Prfphoto/>
       <About/>
-       <Footer/>    
+      <Footer/>    
 
     </div>
 </>
@@ -28,8 +28,7 @@ function Page2  (){
     const container =css({
         display: 'flex', 
         flexFlow: 'column',
-        minHeight: '100vh',
-        
+        minHeight: '100vh',    
     })
     
     export default Page2

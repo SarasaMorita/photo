@@ -7,16 +7,11 @@ import Container from './container'
   const styles = useSpring({
   
     to: [
-        { opacity: 1},
-        
+        { opacity: 1},  
       ],
       from: { opacity: 0},
- 
       config:
-      {   mass: 1, tension: 280, friction: 300 }
-            
-
-
+      { mass: 1, tension: 280, friction: 300 }
     })
 
   return (

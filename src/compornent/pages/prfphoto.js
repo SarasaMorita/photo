@@ -9,10 +9,10 @@ function Prfphoto()  {
         
 <div css={prfphoto}>
    
-     <img src={pic4} alt="pictuere1"  
+     <img src={pic4} 
+          alt="pictuere1"  
           width='100%'
-          height='auto'
-         />    
+          height='auto' />    
     
 </div>
    );

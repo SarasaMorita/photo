@@ -17,8 +17,6 @@ function About (){
      街をぶらぶらしながら好きなものを撮ってます。
     </div>
 
-
-
     </div>
    );
 }
@@ -41,11 +39,8 @@ const p = css({
     left:'0px',
     lineHeight:'20px',
     width:'100%',
-   
     margin:'0.5em auto',
-   
     display: 'flex',
-   
     boxSizing: 'border-box',
 
 })

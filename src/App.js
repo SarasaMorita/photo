@@ -7,9 +7,8 @@ import NotFound from './compornent/notfound';
 import Page3Loading from './compornent/portforio/Page3Loading';
 
 function Top()  {
-
-
-  return (<Router>
+  return (
+  <Router>
     <Routes>
       <Route path="/" element={<Loading />} />
       <Route path="/about" element={<Page2Now/>} />

@@ -9,7 +9,7 @@ import { Canvas, useThree } from '@react-three/fiber';
 
 
 function Images() {
-  const {width,height}=useThree((state)=> state.viewport)
+  const {height}=useThree((state)=> state.viewport)
   return (
     <>
     <group>
@@ -35,11 +35,8 @@ function Photoanime() {
       
       <Canvas>
         <ScrollControls pages={2} damping={3}>
-          <Scroll>
-           
-          
+          <Scroll>  
         <Images/>
-      
         </Scroll>
 
         <Scroll html>
@@ -50,17 +47,14 @@ function Photoanime() {
           </div>
         </Scroll>
         </ScrollControls>
-    
-      // </Canvas>
-    
+       </Canvas>
       <Footer/>
         </div>
       </>
     )
   }
 
-  const size =css({
-    
+  const size =css({ 
     backgroundColor:'aliceblue',
     width:'100vw',
     height:'100vh',
@@ -69,7 +63,6 @@ function Photoanime() {
     display: 'flex', 
     flexFlow: 'column',
      minHeight: '100vh'
-  
   })
 
   const font =css({
@@ -85,10 +78,7 @@ function Photoanime() {
      left:'1.5em',
      flexFlow: 'column',
      display: 'flex',
-     whiteSpace: 'nowrap',
-    
+     whiteSpace: 'nowrap'  
   })
   
-  
-
 export default Photoanime

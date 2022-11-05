@@ -9,9 +9,7 @@ function Header()  {
     <div css={header}>
         <div css ={containerStyle}>
             わくぐみのへや
-        </div>
-      
-      
+        </div>  
     </div>
     );
 }
@@ -19,8 +17,6 @@ function Header()  {
     const containerStyle = css({
         textAlign:'center',
         paddingTop:'10px'
-
-
     })
 
     const header =css({
@@ -31,9 +27,6 @@ function Header()  {
         fontSize: "calc(20px + 2vmin)",
         color: "white",
         height:'50px'
-     
-
     })
     
-
     export default Header ;

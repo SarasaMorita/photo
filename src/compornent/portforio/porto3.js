@@ -12,28 +12,19 @@ function Page3  (){
     <div css ={container}>
 
     <Sidebar  />
-     <Header/>  
-     <Photoanime/>
-       <Footer/>  
-       
-       
+    <Header/>  
+    <Photoanime/>
+    <Footer/>  
 
-    </div>
-</>
+    </div></>
         );
     }
 
     const container =css({
-        display: 'flex', /* フレックスボックスに有効に */
-        flexFlow: 'column',/* 要素を縦に並べる */
+        display: 'flex', 
+        flexFlow: 'column',
         minHeight: '100vh',
-     
-        
-        
-       
       
-
-       
     })
     
     export default Page3

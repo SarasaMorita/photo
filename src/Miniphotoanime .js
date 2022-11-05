@@ -6,10 +6,8 @@ import Sidebar from './compornent/sidebar';
 import { Image, Scroll, ScrollControls } from '@react-three/drei'
 import { Canvas, useThree } from '@react-three/fiber';
 
-
-
 function Images() {
-  const {width,height}=useThree((state)=> state.viewport)
+  const {height}=useThree((state)=> state.viewport)
   return (
     <>
     <group>
@@ -32,12 +30,9 @@ function Photoanime() {
       <div css={size}>
       <Sidebar/>
       <Header/>
-       
       <Canvas>
         <ScrollControls pages={2} damping={3}>
-          <Scroll>
-           
-          
+          <Scroll> 
         <Images/>
        
         </Scroll>
@@ -50,9 +45,7 @@ function Photoanime() {
           </div>
         </Scroll>
         </ScrollControls>
-    
-      </Canvas>
-     
+      </Canvas> 
       <Footer/>
         </div>
       </>
@@ -60,17 +53,14 @@ function Photoanime() {
   }
 
   const size =css({
-   
-    backgroundColor:'aliceblue',
-    
-    width:'100vw',
-    
+    backgroundColor:'aliceblue', 
+    width:'100vw', 
     height:'100vh',
     margin:'0',
     padding:'0',
     display: 'flex', 
-        flexFlow: 'column',
-        minHeight: '100vh'
+    flexFlow: 'column',
+    minHeight: '100vh'
   
   })
 
@@ -91,6 +81,4 @@ function Photoanime() {
     
   })
   
-  
-
 export default Photoanime
